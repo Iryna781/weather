@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.weather{
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto;
+    background-image: url("images/1.jpg");
+    padding: 100px;
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    margin-left: 78%;
+    border: 1px solid rgb(217, 74, 217);
+    border-radius: 20%;
+    background-color: rgba(84, 37, 214, 0.5);
+    padding: 50px;
+}
+[class*="vel-"]{
+    font-size: 32px;
+    color: #9e301d;
+    text-align: center;
+}
+.degree-vel{
+    display: flex;
+    justify-content: center;
+}
+.degree,
+.pres{
+    font-size: 28px;
+}
+.pres{
+    margin-top: 3px;
+}
+.conditions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+}
+.temp,
+.pressure,
+.description,
+.humidity,
+.speed,
+.deg{
+    width: 200px;
+    height: 240px;
+    margin: 5px 10px;
+    border: 1px solid rgb(217, 74, 217);
+    border-radius: 20%;
+    background-color: rgba(84, 37, 214, 0.7);
+}
+.text{
+    text-align: center;
+    font-size: 24px;
+    color: #0f0652;
+}
